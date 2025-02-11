@@ -8,7 +8,7 @@ export default defineConfig({
     port: 4000,
     proxy: {
       '/api': {
-        target: 'http://localhost:6000',
+        target: 'https://mern-2-gohh.onrender.com',
         changeOrigin: true,
       },
     },
